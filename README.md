@@ -9,10 +9,6 @@ This is a portfolio website for Ninestars, showcasing our services, portfolio, t
 - [Technologies Used](#technologies-used)
 - [Sections](#sections)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 
 ## Demo
 
