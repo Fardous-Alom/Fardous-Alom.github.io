@@ -12,7 +12,7 @@ This is a portfolio website of MD Fardous Alom Prince, showcasing my services, p
 
 ## Demo
 
-You can view a live demo of the website [https://fardous-alom.github.io/](#).
+You can view a live demo of the website [Live Preview](https://fardous-alom.github.io/).
 
 ## Features
 
