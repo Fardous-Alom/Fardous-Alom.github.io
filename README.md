@@ -1,6 +1,6 @@
-# Ninestars Portfolio Website
+# Portfolio Website
 
-This is a portfolio website for Ninestars, showcasing our services, portfolio, team, clients, and contact information. The website is built with Bootstrap, ensuring a responsive and modern design.
+This is a portfolio website of MD Fardous Alom Prince, showcasing my services, portfolio, teamwork, projects, and contact information. The website is built with Bootstrap, ensuring a responsive and modern design.
 
 ## Table of Contents
 
@@ -12,7 +12,7 @@ This is a portfolio website for Ninestars, showcasing our services, portfolio, t
 
 ## Demo
 
-You can view a live demo of the website [here](#).
+You can view a live demo of the website [https://fardous-alom.github.io/](#).
 
 ## Features
 
@@ -20,7 +20,7 @@ You can view a live demo of the website [here](#).
 - Services overview
 - Portfolio showcase
 - Team members section
-- Client testimonials
+- Testimonials
 - Contact form
 - Newsletter subscription
 
@@ -29,7 +29,7 @@ You can view a live demo of the website [here](#).
 - HTML5
 - CSS3
 - JavaScript
-- Bootstrap 4
+- Bootstrap 5
 
 ## Sections
 
@@ -37,24 +37,21 @@ You can view a live demo of the website [here](#).
 An introductory section with a brief description and a call-to-action button.
 
 ### About Us
-Information about Ninestars and what we do.
+Information about myself and what I do.
 
 ### Services
-Details about the services we offer.
+Details about the services I offer.
 
 ### Portfolio
-A showcase of our projects, categorized by type (App, Card, Web).
+A showcase of my projects, categorized by type (App, Card, Web).
 
 ### Team
-Information about our team members.
-
-### F.A.Q
-Frequently asked questions section.
+Information about team I've worked with.
 
 ### Clients
 Testimonials from our trusted clients.
 
-### Contact Us
+### Contact
 Contact information and a form for users to get in touch.
 
 ### Footer
