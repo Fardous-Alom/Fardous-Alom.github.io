@@ -12,7 +12,7 @@ This is a portfolio website of MD Fardous Alom Prince, showcasing my services, p
 
 ## Demo
 
-You can view a live demo of the website [Live Preview](https://fardous-alom.github.io/).
+You can view a live demo of the website [here](https://fardous-alom.github.io/).
 
 ## Features
 
@@ -61,4 +61,4 @@ Links to useful pages and social media profiles.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/portfolio.git
+   git clone https://github.com/Fardous-Alom/Fardous-Alom.github.io.git
