@@ -1,64 +1,77 @@
-# Portfolio Website
+# Overview
 
-This is a portfolio website of MD Fardous Alom Prince, showcasing my services, portfolio, teamwork, projects, and contact information. The website is built with Bootstrap, ensuring a responsive and modern design.
+This is a professional portfolio website to showcase my skills, projects, and experiences. The website is built with HTML and Tailwind CSS, providing a modern, responsive, and visually appealing design.
 
 ## Table of Contents
 
-- [Demo](#demo)
-- [Features](#features)
+- [Preview](#Preview)
 - [Technologies Used](#technologies-used)
-- [Sections](#sections)
 - [Installation](#installation)
 
-## Demo
+## Preview
 
-You can view a live demo of the website [here](https://fardous-alom.github.io/).
-
-## Features
-
-- Responsive design
-- Services overview
-- Portfolio showcase
-- Team members section
-- Testimonials
-- Contact form
-- Newsletter subscription
+Have a live preview of the website [here](https://fardous-alom.github.io/).
 
 ## Technologies Used
 
 - HTML5
-- CSS3
 - JavaScript
-- Bootstrap 5
-
-## Sections
-
-### Home
-An introductory section with a brief description and a call-to-action button.
-
-### About Us
-Information about myself and what I do.
-
-### Services
-Details about the services I offer.
-
-### Portfolio
-A showcase of my projects, categorized by type (App, Card, Web).
-
-### Team
-Information about team I've worked with.
-
-### Clients
-Testimonials from our trusted clients.
-
-### Contact
-Contact information and a form for users to get in touch.
-
-### Footer
-Links to useful pages and social media profiles.
+- Tailwind CSS
+- Node.js
+- NPM (Node Package Manager)
 
 ## Installation
 
 1. Clone the repository:
    ```bash
    git clone https://github.com/Fardous-Alom/Fardous-Alom.github.io.git
+
+2. Install dependencies
+   1. Install the necessary Node.js packages.
+   ```bash
+   npm install
+
+   2. Install Tailwind CSS
+      Initialize Tailwind CSS by installing it via NPM and creating the necessary configuration files.
+   ```bash
+      npm install -D tailwindcss
+      npx tailwindcss init
+
+      This will create a tailwind.config.js file at the root of your project.
+
+3. Configure Tailwind CSS
+   Add the paths to all of your template files in the content section of your tailwind.config.js file.
+   ```bash
+   // tailwind.config.js
+   module.exports = {
+   content: [
+      './public/**/*.html',
+      './src/**/*.{js,jsx,ts,tsx,vue}',
+   ],
+   theme: {
+      extend: {},
+   },
+   plugins: [],
+   }
+
+   Add Tailwind to your CSS
+
+4. Add the following lines to your CSS file.
+   ```bash
+   css
+   Copy code
+   @tailwind base;
+   @tailwind components;
+   @tailwind utilities;
+   Build your CSS
+
+5. Build your Tailwind CSS file by running the following command:
+   ```bash
+   npx tailwindcss -i ./src/input.css -o ./style.css --watch
+   
+   This will generate a dist/output.css file that you can include in your HTML.
+
+6. Run the development server
+   You can run a local development server to view your website.
+   ```bash
+   npm run dev
