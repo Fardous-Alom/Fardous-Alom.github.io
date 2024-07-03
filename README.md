@@ -32,13 +32,13 @@ Have a live preview of the website [here](https://fardous-alom.github.io/).
    npm install
 
 3. Install Tailwind CSS
-   Initialize Tailwind CSS by installing it via NPM and creating the necessary configuration files.This will create a tailwind.config.js file at the root of your project.
+   Install tailwindcss via npm, and create your tailwind.config.js file.
    ```bash
       npm install -D tailwindcss
       npx tailwindcss init
 
-4. Configure Tailwind CSS
-   Add the paths to all of your template files in the content section of your tailwind.config.js file. Add Tailwind to your CSS file.
+4. Configure your template paths
+   Add the paths to all of your template files in your tailwind.config.js file.
    ```bash
    // tailwind.config.js
    module.exports = {
@@ -52,14 +52,16 @@ Have a live preview of the website [here](https://fardous-alom.github.io/).
    plugins: [],
    }
 
-5. Add the following lines to your CSS file.
+5. Add the Tailwind directives to your CSS
+   Add the @tailwind directives for each of Tailwind’s layers to your main CSS file.
    ```bash
    @tailwind base;
    @tailwind components;
    @tailwind utilities;
    Build your CSS
 
-5. Build your Tailwind CSS file by running the following command.This will generate a dist/output.css file that you can include in your HTML.
+5. Start the Tailwind CLI build process
+   Run the CLI tool to scan your template files for classes and build your CSS.
    ```bash
    npx tailwindcss -i ./src/input.css -o ./style.css --watch
 
