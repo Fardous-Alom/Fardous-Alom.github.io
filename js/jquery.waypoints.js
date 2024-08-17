@@ -3,7 +3,6 @@
 
   var keyCounter = 0
   var allWaypoints = {}
-
   /* http://imakewebthings.com/waypoints/api/waypoint */
   function Waypoint(options) {
     if (!options) {
@@ -140,8 +139,7 @@
   }
 
   window.Waypoint = Waypoint
-}())
-;(function() {
+}());(function() {
   'use strict'
 
   function requestAnimationFrameShim(callback) {
@@ -610,5 +608,4 @@
   if (window.Zepto) {
     window.Zepto.fn.waypoint = createExtension(window.Zepto)
   }
-}())
-;
+}());

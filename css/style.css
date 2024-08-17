@@ -1,23 +1,12 @@
-/*
-! tailwindcss v3.4.4 | MIT License | https://tailwindcss.com
-*/
-
-/*
-1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
-2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
-*/
-
 *,
-::before,
-::after {
+::before, ::after {
   box-sizing: border-box; /* 1 */
   border-width: 0; /* 2 */
   border-style: solid; /* 2 */
   border-color: #e5e7eb; /* 2 */
 }
 
-::before,
-::after {
+::before, ::after {
   --tw-content: "";
 }
 
@@ -30,8 +19,7 @@
 6. Use the user's configured `sans` font-variation-settings by default.
 7. Disable tap highlights on iOS
 */
-html,
-:host {
+html, :host {
   line-height: 1.5; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
   -moz-tab-size: 4; /* 3 */
@@ -74,12 +62,7 @@ abbr:where([title]) {
 /*
 Remove the default font size and weight for headings.
 */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   font-size: inherit;
   font-weight: inherit;
 }
@@ -95,8 +78,7 @@ a {
 /*
 Add the correct font weight in Edge and Safari.
 */
-b,
-strong {
+b, strong {
   font-weight: bolder;
 }
 
@@ -106,14 +88,26 @@ strong {
 3. Use the user's configured `mono` font-variation-settings by default.
 4. Correct the odd `em` font sizing in all browsers.
 */
-code,
-kbd,
-samp,
-pre {
+code, kbd, samp, pre {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; /* 1 */
   font-feature-settings: normal; /* 2 */
   font-variation-settings: normal; /* 3 */
   font-size: 1em; /* 4 */
+}
+
+/* sticky-header */
+#sticky-header {
+    position: relative;
+    transition: all 0.3s ease;
+    background-color: #FFE9D9;
+}
+#sticky-header.is-sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #fff; /* or any other background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 /*
@@ -126,8 +120,7 @@ small {
 /*
 Prevent `sub` and `sup` elements from affecting the line height in all browsers.
 */
-sub,
-sup {
+sub, sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
@@ -158,11 +151,7 @@ table {
 2. Remove the margin in Firefox and Safari.
 3. Remove default padding in all browsers.
 */
-button,
-input,
-optgroup,
-select,
-textarea {
+button, input, optgroup, select, textarea {
   font-family: inherit; /* 1 */
   font-feature-settings: inherit; /* 1 */
   font-variation-settings: inherit; /* 1 */
@@ -177,8 +166,7 @@ textarea {
 /*
 Remove the inheritance of text transform in Edge and Firefox.
 */
-button,
-select {
+button, select {
   text-transform: none;
 }
 
@@ -219,8 +207,7 @@ progress {
 /*
 Correct the cursor style of increment and decrement buttons in Safari.
 */
-::-webkit-inner-spin-button,
-::-webkit-outer-spin-button {
+::-webkit-inner-spin-button, ::-webkit-outer-spin-button {
   height: auto;
 }
 
@@ -260,18 +247,7 @@ summary {
 Removes the default spacing and border for appropriate elements.
 */
 blockquote,
-dl,
-dd,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-hr,
-figure,
-p,
-pre {
+dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
   margin: 0;
 }
 
@@ -315,8 +291,7 @@ input::-moz-placeholder, textarea::-moz-placeholder {
   color: #9ca3af; /* 2 */
 }
 
-input::placeholder,
-textarea::placeholder {
+input::placeholder, textarea::placeholder {
   opacity: 1; /* 1 */
   color: #9ca3af; /* 2 */
 }
@@ -341,14 +316,7 @@ Make sure disabled buttons don't get the pointer cursor.
 2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)
    This can trigger a poorly considered lint error in some tools but is included by design.
 */
-img,
-svg,
-video,
-canvas,
-audio,
-iframe,
-embed,
-object {
+img, svg, video, canvas, audio, iframe, embed, object {
   display: block; /* 1 */
   vertical-align: middle; /* 2 */
 }
@@ -356,8 +324,7 @@ object {
 /*
 Constrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)
 */
-img,
-video {
+img, video {
   max-width: 100%;
   height: auto;
 }

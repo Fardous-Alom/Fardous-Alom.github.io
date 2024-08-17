@@ -16,7 +16,7 @@ Have a live preview of the website [here](https://fardous-alom.github.io/).
 
 - HTML5
 - JavaScript
-- Tailwind CSS
+- AOS CSS
 - Node.js
 - NPM (Node Package Manager)
 
