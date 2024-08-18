@@ -1,24 +1,16 @@
-# Overview
 
-This is a professional portfolio website to showcase my skills, projects, and experiences. The website is built with HTML and Tailwind CSS, providing a modern, responsive, and visually appealing design.
+# Portfolio Website
 
-## Table of Contents
+This is a professional portfolio website to showcase my technical, web design skills and experiences. The website is built with HTML, CSS and JavaScript, providing a modern, responsive, and visually appealing design.
 
-- [Preview](#Preview)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-
-## Preview
-
-Have a live preview of the website [here](https://fardous-alom.github.io/).
 
 ## Technologies Used
 
-- HTML5
-- JavaScript
-- AOS CSS
-- Node.js
-- NPM (Node Package Manager)
+
+- **HTML**
+- **CSS :** Tailwind
+- **JavaScript :** AOS, Swiper, jQuery 
+
 
 ## Installation
 
@@ -37,35 +29,7 @@ Have a live preview of the website [here](https://fardous-alom.github.io/).
       npm install -D tailwindcss
       npx tailwindcss init
 
-4. Configure your template paths
-   Add the paths to all of your template files in your tailwind.config.js file.
-   ```bash
-   // tailwind.config.js
-   module.exports = {
-   content: [
-      './public/**/*.html',
-      './src/**/*.{js,jsx,ts,tsx,vue}',
-   ],
-   theme: {
-      extend: {},
-   },
-   plugins: [],
-   }
-
-5. Add the Tailwind directives to your CSS
-   Add the @tailwind directives for each of Tailwind’s layers to your main CSS file.
-   ```bash
-   @tailwind base;
-   @tailwind components;
-   @tailwind utilities;
-   Build your CSS
-
-5. Start the Tailwind CLI build process
-   Run the CLI tool to scan your template files for classes and build your CSS.
-   ```bash
-   npx tailwindcss -i ./src/input.css -o ./style.css --watch
-
-6. Run the development server
-   You can run a local development server to view your website.
+4. Run the development server
+   You can use Live Server extension or run a local development server to view your website.
    ```bash
    npm run dev
